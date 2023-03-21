@@ -22,7 +22,7 @@
                     <li><a href="#footer">Contato</a></li>
                </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-xl" href="/">daisyUI</a>
+          <a class="btn btn-ghost normal-case text-2xl italic" href="/">Lasarini</a>
      </div>
      <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
