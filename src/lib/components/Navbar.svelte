@@ -1,10 +1,13 @@
 <script lang="ts">
      let theme: string
 
-     $: if (theme != '') {
-          document.documentElement.setAttribute('data-theme', theme)
+     $: if (typeof document !== 'undefined') {
+          if (theme != '') {
+               document.documentElement.setAttribute('data-theme', theme)
+          } else {
+               document.documentElement.setAttribute('data-theme', 'default')
+          }
      }
-
 </script>
 
 <nav class="navbar bg-base-100 fixed z-50 font-extrabold">

@@ -1,14 +1,5 @@
 <script lang="ts">
      let dot: string
-
-     function addDot() {
-          if (dot == '...') {
-               dot = ''
-          } else {
-               dot.concat('.')
-          }
-     }
-     setInterval(addDot, 1000)
 </script>
 
 <section id="home" class="hero min-h-screen bg-base-200">
