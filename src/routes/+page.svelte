@@ -1,11 +1,10 @@
 <script lang="ts">
      let dot: string
 
-     if (typeof dot === 'undefined') {
-          dot = ' '
-     }
-
      function addDot() {
+          if (typeof dot == 'undefined') {
+               dot = ' '
+          }
           if (dot == ' ...') {
                dot = ' '
           } else {
