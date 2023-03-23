@@ -1,7 +1,4 @@
 <script lang="ts">
-    import { append } from "svelte/internal";
-
-
      let dot: string
 
      if (typeof dot === 'undefined') {
@@ -20,10 +17,11 @@
 </script>
 
 <section id="home" class="hero min-h-screen bg-base-200">
-     <div class="hero-content text-center">
+     <div class="hero-content text-left">
           <div class="max-w-md">
-               <h1 class="text-5xl font-bold">Hello there</h1>
-               <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+               <p class="p-1 text-xl font-bold">Pedro Lasarini,</p>
+               <h1 class="text-5xl py-2 font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-primary-focus to-secondary-focus">Estudante de Programação</h1>
+               <p class="py-6">Com 20 anos, curso Engenharia de Computação na <abbr title="Universidade Virtual do Estado de São Paulo">Univesp</abbr> e tenho amplo interesse na área de Tecnologia da Informação.</p>
           </div>
      </div>
 </section>
